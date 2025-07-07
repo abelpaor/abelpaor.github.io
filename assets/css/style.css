@@ -375,7 +375,7 @@ a:hover small {
 }
 
 .wrapper {
-    width: 860px;
+    width: 940px;
     margin: 0 auto
 }
 
@@ -411,6 +411,8 @@ td {
     padding: 5px 10px;
     border-bottom: 1px solid #e5e5e5
 }
+
+
 
 dt {
     color: #444;
@@ -472,6 +474,10 @@ header {
     float: left;
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased
+}
+
+ul.compact {
+    margin: 0;
 }
 
 ul.downloads {
@@ -536,7 +542,7 @@ strong {
 }
 
 section {
-    width: 570px;
+    width: 670px;
     float: right;
     padding-bottom: 50px
 }
@@ -556,7 +562,8 @@ footer {
     width: 270px;
     float: left;
     position: fixed;
-    bottom: 50px;
+    bottom: 0px;
+    text-align: left;
     -webkit-font-smoothing: subpixel-antialiased
 }
 
