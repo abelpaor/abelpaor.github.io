@@ -48,7 +48,10 @@
       <h1><a>Abel <br />Pacheco Ortega</a></h1>
       <h2>Research Engineer</h2>
       <img src="./assets/imgs/profile.png" alt="Abel Pacheco-Ortega" class="profile-pic">
-
+      <p style="text-align: justify;">
+        I am a committed individual with a focus on applied computer vision and machine learning. I enjoy working in
+        multidisciplinary teams and contributing to scalable, high-quality systems.
+      </p>
       <p>
       <table class="hidden-table">
         <tr>
@@ -79,6 +82,7 @@
       </table>
       </p>
 
+
       <!-- <p class="view"><a href="https://github.com/pages-themes/minimal">View the Project on GitHub
           <small>pages-themes/minimal</small></a></p> -->
 
@@ -90,12 +94,12 @@
 
       <p>
       <h3>
-        <a href="#about">About</a><br />
+        <!-- <a href="#about">About</a><br /> -->
         <a href="#education">Education</a><br />
         <a href="#experience">Experience</a><br />
+        <a href="#projects">Projects</a><br />
         <a href="#publications">Publications</a><br />
         <a href="#teaching">Teaching</a><br />
-        <a href="#projects">Projects</a>
       </h3>
       </p>
 
@@ -104,11 +108,11 @@
     </header>
     <section>
 
-      <h2 id="about" class="sections">About</h2>
+      <!-- <h2 id="about" class="sections">About</h2>
       I am a passionate individual with a focus on applied computer vision and machine learning. I enjoy working in
       multidisciplinary teams and contributing to scalable, high-quality systems.
       <br />
-      <br />
+      <br /> -->
 
 
       <h2 id="education" class="sections">Education</h2>
@@ -126,9 +130,8 @@
             Developed methods for visual affordance recognition by combining 3D geometry with generative models to model
             human-environment interactions. Focused on one-shot learning using variational techniques. Conducted
             large-scale distributed evaluations using MPI on high-performance computing infrastructure.
-
+            <br />
             <small>
-              <br /><br />
               <i>Keywords</i>: Machine Learning, Computer Vision, Statistics, Data Analysis, Scientific Writing,
               Collegiality, Scene understanding, 3D features, Distributed Systems, Message Passing Interface (MPI),
               CVAE,
@@ -151,8 +154,8 @@
             Implemented a visual place recognition and topological mapping system using RGB-D data. Created a custom
             feature detector (FAST+3D) and a viewpoint-invariant descriptor, integrated into a robot localization
             framework for indoor navigation.
+            <br />
             <small>
-              <br /><br />
               <i>Keywords</i>: 3D vision, RGB-D, Feature description, Feature detection, Visual SLAM, Mobile robotics,
               Robot localization
             </small>
@@ -173,8 +176,8 @@
             Designed and developed an information system to automate the planning and management of engineering field
             trips. The system streamlined authorisation and reporting processes for over 6,000 students per year,
             improving efficiency and access to real-time data.
+            <br />
             <small>
-              <br /><br />
               <i>Keywords</i>: Systems development, Process automation, Database design, Web technologies, Information
               systems, Software engineering
             </small>
@@ -193,7 +196,7 @@
         </tr>
         <tr>
           <td colspan="2">
-            <ul>
+            <ul class="compact">
               <li>Evaluated new technologies in machine learning and computer vision for product integration, ensuring
                 robustness in uncertain conditions.</li>
               <li>Developed tools for visualising and validating calibration accuracy.</li>
@@ -208,8 +211,6 @@
           </td>
         </tr>
       </table>
-
-
       <table class="hidden-table">
         <tr>
           <th>Head of Systems Development</th>
@@ -220,7 +221,7 @@
         </tr>
         <tr>
           <td colspan="2">
-            <ul>
+            <ul class="compact">
               <li>Led the planning and execution of national-level digital systems for education evaluation.</li>
               <li>Directed software development, system architecture, and team coordination.</li>
               <li>Applied agile methodologies to multiple concurrent projects.</li>
@@ -233,7 +234,6 @@
           </td>
         </tr>
       </table>
-
       <table class="hidden-table">
         <tr>
           <th>Lecturer / Teaching Assistant (Part-Time)</th>
@@ -244,7 +244,7 @@
         </tr>
         <tr>
           <td colspan="2">
-            <ul>
+            <ul class="compact">
               <li>Delivered academic instruction and supported student learning in Programming, Image Processing, and
                 Computer Vision.</li>
               <li>Examined over 10 Master's theses in Computer Vision topics, providing research and technical guidance.
@@ -260,10 +260,9 @@
           </td>
         </tr>
       </table>
-
       <table class="hidden-table">
         <tr>
-          <th>Research Developer (part time)</th>
+          <th>Research Developer (Part-time)</th>
           <th style="text-align: right;">2013 – 2017</th>
         </tr>
         <tr>
@@ -271,7 +270,7 @@
         </tr>
         <tr>
           <td colspan="2">
-            <ul>
+            <ul class="compact">
               <li>Designed and implemented high- and low-level computer vision modules for a general-purpose robot.</li>
               <li>Developed visual pipelines with real-time performance constraints in robotics systems.</li>
               <li>Adapted state-of-the-art algorithms for autonomous robotic tasks.</li>
@@ -285,6 +284,121 @@
         </tr>
       </table>
 
+      <h2 id="projects" class="sections">Projects</h2>
+      <table class="hidden-table">
+        <tr>
+          <td rowspan="2" width="180 px" style="text-align: left;"><img src="assets/imgs/projects/aros.png"
+              width="150px"></td>
+          <td><b>AROS: Affordance recognition with one-shot human stances </b></td>
+        </tr>
+        <tr>
+          <td>
+            AROS is a one-shot learning method for predicting how highly-articulated human poses
+            interact with 3D scenes. The key idea is to model human-scene interactions using only a few pose examples,
+            without needing to retrain the model for new interactions. Given a 3D mesh of an unseen environment, AROS
+            predicts where interactions (affordances) can occur and generates realistic 3D human poses in context.
+            <br />
+            <small>
+              </i>Keywords</i>: Affordances, Scene understanding, 3D descriptor, human interactions, visual perception,
+              Python
+            </small>
+            <ul class="downloads">
+              <li>
+                <a href="https://abelpaor.github.io/AROS/" target="_blank">
+                  <img src="assets/imgs/contact/languages.png" width="20">
+                  <strong>Webpage</strong></a>
+              </li>
+              <li>
+                <a href="https://youtu.be/VgbD9NZwmws" target="_blank">
+                  <img src="assets/imgs/contact/youtube.png" width="20">
+                  <strong>Youtube</strong></a>
+              </li>
+              <li>
+                <a href="https://github.com/abelpaor/AROS" target="_blank">
+                  <img src="assets/imgs/contact/github-circle.png" width="20">
+                  <br /><strong>GitHub</strong>
+                </a>
+              </li>
+            </ul>
+
+          </td>
+
+        </tr>
+      </table>
+      <table class="hidden-table">
+        <tr>
+          <td><b>General Porpouse Service Robot (Justina) </b></td>
+          <td rowspan="2" width="180 px" style="text-align: right;"><img src="assets/imgs/projects/justina.png"
+              width="150px"></td>
+        </tr>
+        <tr>
+          <td>
+            Robot Justina is a multidisciplinary project designed to assist people in domestic
+            environments. To achieve this, it uses advanced technologies such as speech recognition, computer vision,
+            autonomous navigation, and object manipulation.
+            I contributed to the design, implementation, and improvement of the perception system focusing on computer
+            vision. <br />
+            <small>
+              </i>Keywords</i>: Machine learning, Computer Vision, OpenCV, C++, Service Robots, Object Recognition,
+              Human-Robot Interaction, ROS (Robot Operating System), Multidisciplinary Projects
+            </small>
+            <ul class="downloads">
+              <li>
+                <a href="https://biorobotics.fi-p.unam.mx/robot-justina/" target="_blank">
+                  <img src="assets/imgs/contact/languages.png" width="20">
+                  <strong>Webpage</strong></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@BioroboticsUNAM" target="_blank">
+                  <img src="assets/imgs/contact/youtube.png" width="20">
+                  <strong>Youtube</strong></a>
+              </li>
+              <li><a href="https://github.com/RobotJustina" target="_blank"><img
+                    src="assets/imgs/contact/github-circle.png" width="20">
+                  <br /><strong>GitHub</strong></a></li>
+            </ul>
+
+          </td>
+
+        </tr>
+      </table>
+      <table class="hidden-table">
+        <tr>
+          <td rowspan="2" width="180 px" style="text-align: left;"><img src="assets/imgs/projects/autonomos.png"
+              width="150px"></td>
+          <td><b>Vision-Based Lane Detection for Scale Model Autonomous Cars </b></td>
+        </tr>
+        <tr>
+          <td>
+            As part of the AutoModelCar challenge at the Robotics Mexican Tournament (TMR), which extends the
+            <a href="https://www.fu-berlin.de/en/presse/informationen/fup/2016/fup_16_271-autonome-modellautos-universitaet-mexiko/index.html"
+              target="_blank">Urban Mobility Visions initiative</a> by Dr. Raúl Rojas (Freie Universität Berlin), this
+            project focuses on developing a ROS-based visual lane detector for 1:10 scale autonomous vehicles. The
+            system processes camera input to estimate the vehicle’s position within the lane and assist with path
+            following. <br />
+            <small style="color: #069;">
+              </i>Keywords</i>: Computer Vision, OpenCV, C++, ROS (Robot Operating System), Autonomous driving
+            </small>
+            <ul class="downloads">
+              <li>
+                <a href="https://www.femexrobotica.org/tmr2018/portfolio-item/autos-autonomos/" target="_blank">
+                  <img src="assets/imgs/contact/languages.png" width="20">
+                  <strong>Webpage</strong></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=_G4Cx42j8V4&t=12s" target="_blank">
+                  <img src="assets/imgs/contact/youtube.png" width="20">
+                  <strong>Youtube</strong></a>
+              </li>
+              <li><a href="https://github.com/dougbel/AutomodelLineDetector" target="_blank"><img
+                    src="assets/imgs/contact/github-circle.png" width="20">
+                  <br /><strong>GitHub</strong></a></li>
+            </ul>
+
+          </td>
+
+        </tr>
+      </table>
 
       <h2 id="publications" class="sections">Publications</h2>
       <table class="papers-table">
@@ -380,10 +494,6 @@
           </td>
         </tr>
       </table>
-
-
-
-
 
       <h2 id="teaching" class="sections">Teaching</h2>
       <table class="hidden-table">
@@ -485,6 +595,7 @@
       </table>
 
     </section>
+
     <footer>
       <p><small>Last update: <b>4 July 2025</b></a></small></p>
     </footer>

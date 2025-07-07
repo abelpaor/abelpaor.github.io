@@ -375,8 +375,9 @@ a:hover small {
 }
 
 .wrapper {
-    width: 940px;
-    margin: 0 auto
+    width: 960px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
 }
 
 blockquote {
@@ -470,9 +471,10 @@ kbd {
 }
 
 header {
-    width: 270px;
+    width: 260px;
     float: left;
     position: fixed;
+    /* border: 2px solid red; */
     -webkit-font-smoothing: subpixel-antialiased
 }
 
@@ -536,7 +538,7 @@ strong {
 }
 
 .downloads a strong {
-    font-size: 14px;
+    font-size: 12px;
     display: block;
     color: #222
 }
@@ -544,11 +546,13 @@ strong {
 section {
     width: 670px;
     float: right;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    /* border: 2px solid green; */
 }
 
 small {
-    font-size: 11px
+    font-size: 11px;
+    color: #069;
 }
 
 hr {
@@ -568,7 +572,8 @@ footer {
 }
 
 @media print,
-screen and (max-width: 960px) {
+screen and (max-width: 1060px),
+screen and (max-height: 750px) {
     div.wrapper {
         width: auto;
         margin: 0
