@@ -443,6 +443,9 @@ th {
     font-weight: bold;
 }
 
+.index-table td {
+    padding: 3px 0px;
+}
 
 .papers-table td {
     padding: 5px 0px;
